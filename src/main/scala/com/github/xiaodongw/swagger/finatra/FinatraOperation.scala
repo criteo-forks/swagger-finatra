@@ -6,6 +6,7 @@ import io.swagger.models._
 import io.swagger.util.Json
 import scala.collection.JavaConverters._
 import scala.reflect.runtime.universe._
+import scala.language.implicitConversions
 
 object FinatraOperation {
   implicit def convertToFinatraOperation(operation: Operation): FinatraOperation = new FinatraOperation(operation)

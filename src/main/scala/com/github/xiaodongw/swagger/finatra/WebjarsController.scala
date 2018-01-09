@@ -7,7 +7,7 @@ import javax.inject.Inject
 import com.twitter.finagle.http.Request
 import com.twitter.finatra.http.Controller
 import com.twitter.finatra.http.response.ResponseBuilder
-import com.twitter.finatra.http.routing.FileResolver
+import com.twitter.finatra.utils.FileResolver
 import com.twitter.util.Duration
 
 import scala.language.postfixOps

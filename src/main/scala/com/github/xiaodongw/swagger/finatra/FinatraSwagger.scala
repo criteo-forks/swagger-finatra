@@ -22,6 +22,9 @@ import scala.collection.JavaConverters._
 import scala.collection.mutable
 import scala.reflect.runtime._
 import scala.reflect.runtime.universe._
+import scala.language.implicitConversions
+import scala.language.existentials
+
 
 object FinatraSwagger {
   private val finatraRouteParamter = ":(\\w+)".r
