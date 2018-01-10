@@ -25,3 +25,4 @@ classes/
 .gradle
 gradle.properties
 build/
+gradle
