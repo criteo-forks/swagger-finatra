@@ -13,6 +13,10 @@ It requires Java 8 from version 0.6.0.
 
 #### Add Dependency
 
+##### Scala 2.11, Finatra 17.12.0
+
+	compile "com.github.xiaodongw:swagger-finatra_2.11:0.7.3-criteo"
+
 ##### Scala 2.10, Finatra 2.2.0
 
 	compile "com.github.xiaodongw:swagger-finatra_2.10:0.7.2"
